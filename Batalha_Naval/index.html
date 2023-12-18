@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha Naval</title>
+</head>
+    <link rel="stylesheet" href="style.css">
+	<script src="script.js"> </script>
+    <h1>Batalha Naval 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </h1>
+<body style="background-image: url('img/navio.jfif');background-repeat: no-repeat;background-size: cover;width: 1000px;text-align: center;">
+        <div class="cenario">
+                <tr>
+                    <td><img id="quadro00" src="img/agua_inicial.jfif" onclick="revelar00();"></td>
+                    <td><img id="quadro01" src="img/agua_inicial.jfif" onclick="revelar01();"></td>
+                    <td><img id="quadro02" src="img/agua_inicial.jfif" onclick="revelar02();"></td>
+                    <td><img id="quadro03" src="img/agua_inicial.jfif" onclick="revelar03();"></td>
+                    <td><img id="quadro04" src="img/agua_inicial.jfif" onclick="revelar04();"></td>
+                </tr>
+                <tr>
+                    <td><img  id="quadro10" src="img/agua_inicial.jfif" onclick="revelar10();"></td>
+                    <td><img  id="quadro11" src="img/agua_inicial.jfif" onclick="revelar11();"></td>
+                    <td><img  id="quadro12" src="img/agua_inicial.jfif" onclick="revelar12();"></td>
+                    <td><img  id="quadro13" src="img/agua_inicial.jfif" onclick="revelar13();"></td>
+                    <td><img  id="quadro14" src="img/agua_inicial.jfif" onclick="revelar14();"></td>
+                </tr>
+                <tr>
+                    <td><img id="quadro20" src="img/agua_inicial.jfif" onclick="revelar20();"></td>
+                    <td><img id="quadro21" src="img/agua_inicial.jfif" onclick="revelar21();"></td>
+                    <td><img id="quadro22" src="img/agua_inicial.jfif" onclick="revelar22();"></td>
+                    <td><img id="quadro23" src="img/agua_inicial.jfif" onclick="revelar23();"></td>
+                    <td><img id="quadro24" src="img/agua_inicial.jfif" onclick="revelar24();"></td>
+                </tr>
+                <tr>
+                    <td><img id="quadro30" src="img/agua_inicial.jfif" onclick="revelar30();"></td>
+                    <td><img id="quadro31" src="img/agua_inicial.jfif" onclick="revelar31();"></td>
+                    <td><img id="quadro32" src="img/agua_inicial.jfif" onclick="revelar32();"></td>
+                    <td><img id="quadro33" src="img/agua_inicial.jfif" onclick="revelar33();"></td>
+                    <td><img id="quadro34" src="img/agua_inicial.jfif" onclick="revelar34();"></td>
+                </tr>
+                <tr>
+                    <td><img id="quadro40" src="img/agua_inicial.jfif" onclick="revelar40();"></td>
+                    <td><img id="quadro41" src="img/agua_inicial.jfif" onclick="revelar41();"></td>
+                    <td><img id="quadro42" src="img/agua_inicial.jfif" onclick="revelar42();"></td>
+                    <td><img id="quadro43" src="img/agua_inicial.jfif" onclick="revelar43();"></td>
+                    <td><img id="quadro44" src="img/agua_inicial.jfif" onclick="revelar44();"></td>
+                </tr>
+            </table> 
+        </div>
+<div class="Municao">
+    <h2>Disparos</h2>
+    <h1 id="Tiros"></h1>
+    <h2>Pontuação</h2>
+    <h1 id="Pontos"></h1>
+    <button onclick="Dificil();" class="btn-reiniciar" style="width: 100px;">Nivel Facil</button>
+	<button onclick="Facil();" class="btn-mostrar" style="width: 100px;">Nivel Dificil</button>
+    <button onclick="PosicionaBarcos();" class="btn-table" style="width: 100px;">Jogar</button>
+</body>
+</html>
